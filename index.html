@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scalla">
+    <title>Aldi Balkar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            container:{
+                center : true,
+                padding : {
+                    DEFAULT : 0,
+                    lg : "135px"
+                }
+            }
+          }
+        }
+      </script>
+</head>   
+<body>
+    <!-- Header -->
+    <section class="w-full bg-[#F6C71F] h-screen">
+        <div class="flex flex-col container h-full">
+            <!-- navbar -->
+            <div class="flex flex-row justify-between pt-[58px]">
+                <span class="flex flex-row font-bold">FA</span>
+                <img src="img/menu.svg" class="w-[24px] cursor-pointer"/>
+            </div>
+            <!-- end navbar -->
+           <!-- Introduction -->
+           <div class="flex grow flex-row">
+            <!-- Left Side -->
+            <div class="flex flex-col justify-center lg:w-1/2 w-full">
+                <p class="text-[40px] lg:text-[85px] leading-tight font-medium">
+                    Yo I'm Greeselle, <br />
+                    I Develop Stuff.
+                </p>
+                <p class="text-[24px] mt-[40px]">
+                    Let's collaborate on your next project
+                </p>
+
+                <div class="inline-flex mt-[100px] space-x-[24px]">
+                    <button
+                        class="px-[16px] py-[8px] lg:text-[24px] lg:py-[12px] lg:px-[40px] bg-black rounded-full text-white hover:shadow-lg">Let's
+                        Work</button>
+                    <button
+                        class="px-[16px] py-[8px] lg:text-[24px] lg:py-[12px] lg:px-[40px] border-2 border-black rounded-full hover:shadow-lg">See
+                        my work</button>
+                </div>
+                <div class="inline-flex space-x-[24px] mt-[100px]">
+                    <img src="img/icons8-facebook.svg" class="w-[24px]"/>
+                    <img src="img/icons8-twitter.svg" class="w-[24px]"/>
+                    <img src="img/icons8-instagram.svg" class="w-[24px]"/>
+                    <img src="img/icons8-medium-monogram.svg" class="w-[24px]"/>
+                </div>
+            </div>
+
+            <!-- Right Side -->
+            <div class="hidden lg:grid w-1/2">
+                <img src="img/illustration.png" class="w-5/6 place-self-end" />
+            </div>
+        </div>
+        <!-- End Introduction -->
+        </div>
+    </section>
+    <!-- end header -->
+
+</body> 
+</html>
